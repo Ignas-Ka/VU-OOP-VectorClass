@@ -1,0 +1,14 @@
+﻿  vektorius.cpp
+C:\Users\Ignas\Desktop\vektorius\Vector.h(343,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Ignas\Desktop\vektorius\Vector.h(339): message : while compiling class template member function 'void Vector<int>::push_back(const T &)'
+          with
+          [
+              T=int
+          ]
+C:\Users\Ignas\Desktop\vektorius\vektorius.cpp(29): message : see reference to function template instantiation 'void Vector<int>::push_back(const T &)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\Ignas\Desktop\vektorius\vektorius.cpp(16): message : see reference to class template instantiation 'Vector<int>' being compiled
+  vektorius.vcxproj -> C:\Users\Ignas\Desktop\vektorius\x64\Debug\vektorius.exe
